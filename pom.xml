@@ -6,9 +6,9 @@
 
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>io.github.zahran444</groupId>
+  <groupId>io.github.zahran44</groupId>
   <artifactId>uta-cotton-sdk</artifactId>
-  <version>3.4.4</version>
+  <version>4.4.4</version>
   <packaging>jar</packaging>
   <name>Uta Cotton SDK</name>
   <description>Sed soluta reprehend</description>
