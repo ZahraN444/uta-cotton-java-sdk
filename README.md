@@ -13,12 +13,12 @@ Install the SDK by adding the following dependency in your project's pom.xml fil
 <dependency>
   <groupId>io.github.zahran444</groupId>
   <artifactId>uta-cotton-sdk</artifactId>
-  <version>4.4.5</version>
+  <version>4.4.6</version>
 </dependency>
 ```
 
 You can also view the package at:
-https://central.sonatype.com/artifact/io.github.zahran444/uta-cotton-sdk/4.4.5
+https://central.sonatype.com/artifact/io.github.zahran444/uta-cotton-sdk/4.4.6
 
 ## Test the SDK
 
@@ -32,7 +32,7 @@ In Eclipse, for running the tests do the following:
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -40,7 +40,7 @@ The following parameters are configurable for the API Client:
 |  --- | --- | --- |
 | defaultHost | `String` | *Default*: `"www.example.com"` |
 | environment | `Environment` | The API environment. <br> **Default: `Environment.PRODUCTION`** |
-| httpClientConfig | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
+| httpClientConfig | [`Consumer<HttpClientConfiguration.Builder>`](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/http-client-configuration-builder.md) | Set up Http Client Configuration instance. |
 
 The API client can be initialized as follows:
 
@@ -55,30 +55,30 @@ CypressTestAPIClient client = new CypressTestAPIClient.Builder()
 
 ## List of APIs
 
-* [API](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/controllers/api.md)
+* [API](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/controllers/api.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [Configuration Interface](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/configuration-interface.md)
-* [HttpClientConfiguration](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/http-client-configuration.md)
-* [HttpClientConfiguration.Builder](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/http-client-configuration-builder.md)
+* [Configuration Interface](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/configuration-interface.md)
+* [HttpClientConfiguration](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/http-client-configuration.md)
+* [HttpClientConfiguration.Builder](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/http-client-configuration-builder.md)
 
 ### HTTP
 
-* [Headers](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/headers.md)
-* [HttpCallback Interface](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/http-callback-interface.md)
-* [HttpContext](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/http-context.md)
-* [HttpBodyRequest](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/http-body-request.md)
-* [HttpRequest](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/http-request.md)
-* [HttpResponse](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/http-response.md)
-* [HttpStringResponse](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/http-string-response.md)
+* [Headers](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/headers.md)
+* [HttpCallback Interface](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/http-callback-interface.md)
+* [HttpContext](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/http-context.md)
+* [HttpBodyRequest](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/http-body-request.md)
+* [HttpRequest](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/http-request.md)
+* [HttpResponse](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/http-response.md)
+* [HttpStringResponse](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/http-string-response.md)
 
 ### Utilities
 
-* [ApiException](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/api-exception.md)
-* [ApiHelper](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/api-helper.md)
-* [FileWrapper](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/file-wrapper.md)
-* [DateTimeHelper](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.5/doc/date-time-helper.md)
+* [ApiException](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/api-exception.md)
+* [ApiHelper](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/api-helper.md)
+* [FileWrapper](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/file-wrapper.md)
+* [DateTimeHelper](https://www.github.com/ZahraN444/uta-cotton-java-sdk/tree/4.4.6/doc/date-time-helper.md)
 
