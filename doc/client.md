@@ -12,6 +12,11 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```java
+import com.example.www.CypressTestAPIClient;
+import com.example.www.Environment;
+import com.example.www.exceptions.ApiException;
+import java.io.IOException;
+
 CypressTestAPIClient client = new CypressTestAPIClient.Builder()
     .httpClientConfig(configBuilder -> configBuilder
             .timeout(0))
