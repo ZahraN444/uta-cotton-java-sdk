@@ -17,12 +17,17 @@ import com.example.www.Environment;
 import com.example.www.exceptions.ApiException;
 import java.io.IOException;
 
-CypressTestAPIClient client = new CypressTestAPIClient.Builder()
-    .httpClientConfig(configBuilder -> configBuilder
-            .timeout(0))
-    .environment(Environment.PRODUCTION)
-    .defaultHost("www.example.com")
-    .build();
+public class Program {
+    public static void main(String[] args) {
+        CypressTestAPIClient client = new CypressTestAPIClient.Builder()
+            .httpClientConfig(configBuilder -> configBuilder
+                    .timeout(0))
+            .environment(Environment.PRODUCTION)
+            .defaultHost("www.example.com")
+            .build();
+
+    }
+}
 ```
 
 ## Cypress Test APIClient Class
